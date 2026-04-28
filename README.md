@@ -1,6 +1,8 @@
 NetCipher: Secured Networking for Android
 ========
 
+## NOTE FOR APPS TARGETTING API 37 (and/or running on an API 37 Device) THE PERMISSION `android.permission.ACCESS_LOCAL_NETWORK` MUST BE DECLARED IN `AndroidManifest.xml`. OTHERWISE, NETCIPHER'S ABILITY TO PROXY TO OTHER HTTP AND SOCKS APPS WILL BREAK!!!!!
+
 *Better TLS and Tor App Integration*
 
 NetCipher is a library for Android that provides multiple means to improve
